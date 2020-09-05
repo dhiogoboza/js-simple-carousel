@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Simple Carousel</title>
+        <meta charset="utf-8">
+        <meta id="theme-color" name="theme-color" content="#fff">
+        <meta itemprop="name" content="JS Simple Carousel">
+        <script src="js/simple-carousel.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>JS Simple Carousel</h1>
+
+            <p>A simple carousel in vanilla javascript.</p>
+
+            <div id="carousel">
+                <div>
+                    <div class="slide">
+                        <img class="img-fluid" src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png">
+                    </div>
+                    <div class="slide">
+                        <img class="img-fluid" style="height: 220px" src="https://homepages.cae.wisc.edu/~ece533/images/arctichare.png">
+                    </div>
+                    <div class="slide">
+                        <img class="img-fluid" src="https://homepages.cae.wisc.edu/~ece533/images/baboon.png">
+                    </div>
+                    <div class="slide">
+                        <img class="img-fluid" src="https://homepages.cae.wisc.edu/~ece533/images/barbara.png">
+                    </div>
+                    <div class="slide">
+                        <img class="img-fluid" src="https://homepages.cae.wisc.edu/~ece533/images/boat.png">
+                    </div>
+                    <div class="slide">
+                        <img class="img-fluid" src="https://homepages.cae.wisc.edu/~ece533/images/cat.png">
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/dhiogoboza/js-simple-carousel" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+        </div>
+        <script>
+            window.addEventListener('DOMContentLoaded', (event) => {
+                new SimpleCarousel(document.getElementById("carousel"), {
+                    itemsPadding: 15,
+                    rightIconClass: 'carousel-button-next',
+                    leftIconClass: 'carousel-button-prev'
+                });
+            });
+        </script>
+    </body>
+</html>
