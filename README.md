@@ -12,10 +12,24 @@ Add the script in your page:
 <script src="simple-carousel.js"></script>
 ```
 
+HTML elements:
+```html
+<div id="carousel">
+    <div>
+        <img src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png">
+        <img style="height: 220px" src="https://homepages.cae.wisc.edu/~ece533/images/arctichare.png">
+        <img src="https://homepages.cae.wisc.edu/~ece533/images/baboon.png">
+        <img src="https://homepages.cae.wisc.edu/~ece533/images/barbara.png">
+        <img src="https://homepages.cae.wisc.edu/~ece533/images/boat.png">
+        <img src="https://homepages.cae.wisc.edu/~ece533/images/cat.png">
+    </div>
+</div>
+```
+
 Enable the plugin using:
 
 ```js
-new SimpleCarousel(document.getElementById("your-container"), {
+new SimpleCarousel(document.getElementById("carousel"), {
     // Padding between slides
     itemsPadding: 0,
     // Classes for next slide button
