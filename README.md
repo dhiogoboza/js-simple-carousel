@@ -47,8 +47,8 @@ Screenshots
 -------
 
 ![Screenshot 01](screenshots/01.png?raw=true "1 slide visible")
-![Screenshot 02](screenshots/02.png?raw=true "2 slide visible")
-![Screenshot 03](screenshots/03.png?raw=true "4 slide visible")
+![Screenshot 02](screenshots/02.png?raw=true "2 slides visible")
+![Screenshot 03](screenshots/03.png?raw=true "4 slides visible")
 
 Pages using
 -------
