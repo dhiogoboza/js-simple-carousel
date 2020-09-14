@@ -52,7 +52,7 @@ Screenshots
 
 Pages using
 -------
-* [http://rastreioshare.com/](http://rastreioshare.com/)
+* [https://rastreioshare.com/](https://rastreioshare.com/)
 
 License
 -------
